@@ -3,7 +3,7 @@
   "require": {
     "aws/aws-sdk-php": "3.*"
   },
-   "minimum-stability": "1.0.0",
+   "minimum-stability": "stable",
   "description": "Access AWS DynamoDB through simpler interface in PHP.",
   "license": "MIT",
   "keywords": ["aws","dynamodb","dynamodb php"],
