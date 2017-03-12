@@ -1,5 +1,5 @@
 {
-  "name": "aws/dynamodb-php-wrapper",
+  "name": "aws/dynamodb-php",
   "require": {
     "aws/aws-sdk-php": "3.*"
   },
