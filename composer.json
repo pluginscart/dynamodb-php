@@ -1,5 +1,5 @@
 {
-  "name": "aws/dynamodb-php",
+  "name": "pluginscart/dynamodb-php",
   "require": {
     "aws/aws-sdk-php": "3.*"
   },
