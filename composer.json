@@ -1,0 +1,22 @@
+{
+  "name": "aws/dynamodb-php-wrapper",
+  "require": {
+    "aws/aws-sdk-php": "3.*"
+  },
+  "description": "Access AWS DynamoDB through simpler interface in PHP.",
+  "license": "MIT",
+  "keywords": ["aws","dynamodb","dynamodb php"],
+  "authors": [
+        {
+            "name": "Bharat Dhaker",
+            "email": "contact@pluginscart.com",
+            "homepage": "https://github.com/pluginscart",
+            "role": "Developer"
+        }
+  ],
+  "autoload": {
+    "psr-0": {
+      "": "."
+    }
+  }
+}
