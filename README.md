@@ -20,7 +20,8 @@ require_once '/path/to/DynamoDBWrapper.php'; // this module
 $ddb = new DynamoDBWrapper(array(
     'key'    => 'YOUR_KEY',
     'secret' => 'YOUR_SECRET_KEY',
-    'region' => 'SOME_REGION'
+    'region' => 'SOME_REGION',
+    'version' => 'latest'
 ));
 ```
 then, you can access DynamoDB through this instance.
