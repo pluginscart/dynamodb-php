@@ -424,6 +424,9 @@ class DynamoDBWrapper
             else if (isset($v['BS'])) {
                 $converted[$k] = $v['BS'];
             }
+            else if (isset($v['M'])) {
+                $converted[$k] = $v['M'];
+            }
             else {
                 throw new Exception('Not implemented type');
             }
