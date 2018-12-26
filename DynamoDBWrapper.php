@@ -213,8 +213,10 @@ class DynamoDBWrapper
 
             // if some items not processed, try again as next request
             $unprocessedRequests = $result->getPath("UnprocessedItems/{$tableName}");
-            if (count($unprocessedRequests) > 0) {
-                $requests = array_merge($requests, $unprocessedRequests);
+            if (!empty($unprocessedRequests)) {
+                if (count($unprocessedRequests) > 0) {
+                    $requests = array_merge($requests, $unprocessedRequests);
+                }
             }
         }
 
