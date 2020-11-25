@@ -124,6 +124,12 @@ class DynamoDBWrapper
         $items = $this->client->getIterator('Scan', array(
             'TableName' => $tableName,
             'ScanFilter' => $scanFilter,
+            'ScanIndexForward' => true,
+            'Limit' => $limit
+            ),
+            array(
+                'limit' => $limit
+            )
         ));
         return $this->convertItems($items);
     }
